@@ -24,7 +24,7 @@ const CheckBox = ({ disabledCheck, initialCheckState, text }) => {
 
 	return (
 		<div className='container' disabled={disabledCheck}>
-			<div className='square' onClick={clickerFunc} disabled>
+			<div className='square' onClick={clickerFunc}>
 				<img src={checkSelector()} alt='check' className='checker' />
 			</div>
 			<span className='text'>{text}</span>
